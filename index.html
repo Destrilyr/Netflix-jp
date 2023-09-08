@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+    <main class="bg-[url(./image/bg.jpg)] h-[100vh]">
+    <header class="container px-24 py-4">
+        <nav>
+            <ul class="flex items-center justify-between">
+                <li>
+                    <img src="./image/logo.png" alt="Logo Netflix" width="180" height="180">
+                </li>
+                <li class="flex items-center gap-x-6">
+                    <select class="border-[1px] border-gray-400 py-1 px-2 rounded-md">
+                        <option>Bahasa Indonesia</option>
+                        <option>Bahasa English</option>
+                    </select>
+                    <button class="bg-[#e50914] text-white py-2 px-4 rounded hover:bg-red-700">Masuk</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="mt-20 gap-y-8 flex flex-col justify-center items-center text-white">
+        <h1 class="font-bold text-5xl w-2/3 text-center">Judul terpopuler dari Indonesia dan seluruh dunia. Kisah terbaik. Semuanya ada di Netflix.</h1>
+        <h4 class="text-xl">Tonton di mana pun. Batalkan kapan pun.</h4>
+        <h5 class="text-lg">Siap menonton? Masukkan email untuk membuat atau memulai lagi keanggotaanmu.</h5>
+        <div>
+            <input type="email" class="py-3 bg-gray-700/50 border-2 px-6 rounded-md outline-none " placeholder="Alamat email">
+            <button class="bg-[#E50914] py-3 px-8 rounded font-bold text-xl">Mulai > </button>
+        </div>
+    </section>
+    </main>
+</body>
+</html>
